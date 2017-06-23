@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="amazonApp">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/defaults.css" />
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="jquery-3.2.1.slim.min.js"></script>
+    <script src="app.js"></script>
+    <script src="key-field.component.js"></script>
+    <script src="add-key-field.component.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Amazon API Key Spec Machine</h1>
+        <h3>Enter keys below (one per line)</h3>
+        <h3>Format:  Access Key ID~Secret Access Key~Region</h3>
+        <h4>Example:  #@$asdflkj4ASDFj3249~Asjf2$kz)D2efdk~us-east-1</h4>
+        <div id="keyinputs">
+            <key-field></key-field>
+        </div>
+        <div id="addkeyinputs">
+            <add-key-field></add-key-field>
+        </div>
+        <div id="results_table">
+            <table>
+                <thead>
+                    <th>Access Key ID</th>
+                    <th>Secret Access Key</th>
+                    <th>Region</th>
+                    <th>Instance Id</th>
+                    <th>Instance Type</th>
+                    <th>Private IP</th>
+                    <th>Public IP</th>
+                    <th>NI - Public Ip</th>
+                    <th>NI - IPv6</th>
+                    <th>NI - Interface ID</th>
+                    <th>NI - Private Address</th>
+                    <th>NI - Ass. Public IP</th>
+                    <th>NI - Private IP</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 2000px;
+}
+
+/* Textarea */
+
+textarea {
+    width: 2000px;
+}
+
+/* Tables */
+
+table {
+    width: 100%;
+}
